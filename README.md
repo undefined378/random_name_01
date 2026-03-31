@@ -22,6 +22,12 @@ Figure 1. Training loss and test error for Physics-informed NeuralODE with Adam,
 </p>
 <p align="center"><strong>(c) PI-NeuralODE with NNCG</strong></p>
 
+<p align="center">
+  <img src="figures/adam_train_loss.png" width="300" alt="Adam Training Loss NeuralODE">
+  <img src="figures/adam_test_error.png" width="300" alt="Adam Test Error NeuralODE">
+</p>
+<p align="center"><strong>(d) NeuralODE with Adam</strong></p>
+
 ---
 
 Figure 2. Training loss and test error for PINO with ALM, RoPINN, and Curriculum Learning (CL).
