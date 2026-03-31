@@ -2,58 +2,67 @@
 
 ## Reviewer 9qHM (W2 / Q1) 
 
-Figure 1. Training loss and test error heatmaps for Physics-Informed NeuralODE, RoPINN, and NNCG on NeuralODE.
+Figure 1. Training loss and test error for Physics-informed NeuralODE with Adam, RoPINN, and NNCG optimizers.
 
 <table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse;">
   <tr>
     <td align="center" style="padding: 10px; border: 0px;">
-      <img src="./figures/pi_nerualode_train_loss_heatmap.png" width="300" alt="PI-NeuralODE Training Loss">
+      <img src="./figures/pi_nerualode_train_loss_heatmap.png" width="300" alt="Adam Training Loss">
       <br>
-      <strong>(a) PI-NeuralODE Training Loss</strong>
     </td>
     <td align="center" style="padding: 10px; border: 0px;">
-      <img src="./figures/pi_nerualode_test_error_heatmap.png" width="300" alt="PI-NeuralODE Test Error">
+      <img src="./figures/pi_nerualode_test_error_heatmap.png" width="300" alt="Adam Test Error">
       <br>
-      <strong>(b) PI-NeuralODE Test Error</strong>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="padding: 4px 10px 10px; border: 0px;">
+      <strong>PI-NeuralODE with Adam</strong>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="./figures/RoPINN-NeuralODE_train_loss_heatmap.png" width="300" alt="RoPINN Training Loss">
       <br>
-      <strong>(c) RoPINN Training Loss</strong>
     </td>
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="./figures/RoPINN-NeuralODE_test_error_heatmap.png" width="300" alt="RoPINN Test Error">
       <br>
-      <strong>(d) RoPINN Test Error</strong>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="padding: 4px 10px 10px; border: 0px;">
+      <strong>PI-NeuralODE with RoPINN</strong>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="./figures/NNCG_NeuralODE_train_loss_heatmap.png" width="300" alt="NNCG Training Loss">
       <br>
-      <strong>(e) NNCG Training Loss</strong>
     </td>
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="./figures/NNCG_NeuralODE_test_error_heatmap.png" width="300" alt="NNCG Test Error">
       <br>
-      <strong>(f) NNCG Test Error</strong>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="padding: 4px 10px 10px; border: 0px;">
+      <strong>PI-NeuralODE with NNCG</strong>
     </td>
   </tr>
 </table>
 
 ---
 
-Figure 2. Training loss and test error heatmaps for ALM, RoPINN, and Curriculum Learning on PINO.
+Figure 2. Training loss and test error for PINO with ALM, RoPINN, and Curriculum Learning (CL).
 
 <img src="./figures/pino_optim.png" width="700" alt="PINO">
 
 ---
 
-## Reviewer 9qHM （Q3） / Reviewer kKd9（Q1）
+## Reviewer 9qHM (Q2, Q3) / Reviewer kKd9 (Q1)
 
-Figure 3. Regime boundary contours overlaid at multiple threshold values on the same training loss and test error phase plot on PINN and FNO.
+Figure 3. Boundary sensitivity analysis.
 
 <table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse;">
   <tr>
@@ -110,7 +119,7 @@ Figure 3. Regime boundary contours overlaid at multiple threshold values on the 
 
 ## Reviewer sQNm （Q1）
 
-Figure 4. Training loss and test error change with iteration under resampling at each iteration.
+Figure 4. Training loss and test error on convection system with resampling collocation points.
 
 <img src="./figures/resample.png" width="600" alt="Collocation Resampling">
 
@@ -118,31 +127,31 @@ Figure 4. Training loss and test error change with iteration under resampling at
 
 ## Reviewer sQNm （Q2）
 
-Figure 5. Comparison of Adam, RoPINN, and SOAP on the Convection system.
+Figure 5. Comparison of Adam, RoPINN, and SOAP on the Convection system with a large network (width: 256,  depth: 4). Figures (a) and (b) show the differences in training loss and test error between the Adam and SOAP optimizers.
 
 <table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse;">
   <tr>
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="./figures/adam_soap_training_loss.png" width="300" alt="Adam vs SOAP Training Loss">
       <br>
-      <strong>(a) Adam vs SOAP Training Loss</strong>
+      <strong>(a) Training Loss (Adam - SOAP)</strong>
     </td>
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="./figures/adam_soap_test_error.png" width="300" alt="Adam vs SOAP Test Error">
       <br>
-      <strong>(b) Adam vs SOAP Test Error</strong>
+      <strong>(b) Test Error (Adam - SOAP)</strong>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="./figures/convection_sources_adam_ropinn_training_loss.png" width="300" alt="Adam + RoPINN Training Loss">
       <br>
-      <strong>(c) Adam + RoPINN Training Loss (Convection)</strong>
+      <strong>(c) Training Loss (Adam - RoPINN)</strong>
     </td>
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="./figures/convection_sources_adam_ropinn_test_error.png" width="300" alt="Adam + RoPINN Test Error">
       <br>
-      <strong>(d) Adam + RoPINN Test Error (Convection)</strong>
+      <strong>(d) Test Error (Adam - RoPINN)</strong>
     </td>
   </tr>
 </table>
@@ -158,12 +167,12 @@ Figure 6. Comparison of SOAP, NNCG, and RoPINN on the Convection system.
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="./figures/convection_sources_soap_nncg_ropinn_training_loss.png" width="400" alt="SOAP NNCG RoPINN Training Loss">
       <br>
-      <strong>(a) SOAP + NNCG + RoPINN Training Loss (Convection)</strong>
+      <strong>(a) Training Loss </strong>
     </td>
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="./figures/convection_sources_soap_nncg_ropinn_test_error.png" width="400" alt="SOAP NNCG RoPINN Test Error">
       <br>
-      <strong>(b) SOAP + NNCG + RoPINN Test Error (Convection)</strong>
+      <strong>(b) Test Error </strong>
     </td>
   </tr>
 </table>
