@@ -17,7 +17,7 @@ Figure 1. Training loss and test error for Physics-informed NeuralODE with Adam,
   </tr>
   <tr>
     <td colspan="2" align="center" style="padding: 4px 10px 10px; border: 0px;">
-      <strong>PI-NeuralODE with Adam</strong>
+      <strong>(a) PI-NeuralODE with Adam</strong>
     </td>
   </tr>
   <tr>
@@ -32,7 +32,7 @@ Figure 1. Training loss and test error for Physics-informed NeuralODE with Adam,
   </tr>
   <tr>
     <td colspan="2" align="center" style="padding: 4px 10px 10px; border: 0px;">
-      <strong>PI-NeuralODE with RoPINN</strong>
+      <strong>(b) PI-NeuralODE with RoPINN</strong>
     </td>
   </tr>
   <tr>
@@ -47,7 +47,7 @@ Figure 1. Training loss and test error for Physics-informed NeuralODE with Adam,
   </tr>
   <tr>
     <td colspan="2" align="center" style="padding: 4px 10px 10px; border: 0px;">
-      <strong>PI-NeuralODE with NNCG</strong>
+      <strong>(c) PI-NeuralODE with NNCG</strong>
     </td>
   </tr>
 </table>
