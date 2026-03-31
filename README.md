@@ -8,19 +8,19 @@ Figure 1. Training loss and test error for Physics-informed NeuralODE with Adam,
   <img src="figures/adam_train_loss.png" width="300" alt="Adam Training Loss">
   <img src="figures/adam_test_error.png" width="300" alt="Adam Test Error">
 </p>
-<p align="center"><strong>(a) NeuralODE with Adam</strong></p>
+<p align="center"><strong>(a) Physics-informed NeuralODE with Adam</strong></p>
 
 <p align="center">
   <img src="figures/ropinn_neuralode_train_loss.png" width="300" alt="RoPINN Training Loss">
   <img src="figures/ropinn_neuralode_test_error.png" width="300" alt="RoPINN Test Error">
 </p>
-<p align="center"><strong>(b) NeuralODE with RoPINN</strong></p>
+<p align="center"><strong>(b) Physics-informed NeuralODE with RoPINN</strong></p>
 
 <p align="center">
   <img src="figures/nncg_neuralode_train_loss.png" width="300" alt="NNCG Training Loss">
   <img src="figures/nncg_neuralode_test_error.png" width="300" alt="NNCG Test Error">
 </p>
-<p align="center"><strong>(c) NeuralODE with NNCG</strong></p>
+<p align="center"><strong>(c) Physics-informed NeuralODE with NNCG</strong></p>
 
 ---
 
@@ -32,11 +32,11 @@ Figure 2. Training loss and test error for PINO with ALM, RoPINN, and Curriculum
 
 ## Reviewer 9qHM (Q2, Q3) / Reviewer kKd9 (Q1)
 
-Figure 3. Seed sensitivity of RoPINN over 3 seeds (std).
+Figure 3. Seed sensitivity of RoPINN on convection system over 3 seeds (std). 
 
 <p align="center"><img src="figures/convection_seed_sensitivity_ropinn_std_pair.png" width="600" alt="Seed Sensitivity RoPINN"></p>
 
-Figure 4. Failure rate of NNCG on reaction over 3 seeds.
+Figure 4. Failure rates of NNCG on reaction system over 3 seeds. (Each plotted grid cell contains 12 runs because we merge a 2×2 neighborhood of hyperparameter settings into one cell, giving 4 settings × 3 seeds = 12)
 
 <p align="center"><img src="figures/reaction_nncg_failure_rate_compressed.png" width="600" alt="Failure Rate NNCG Reaction"></p>
 
@@ -48,25 +48,25 @@ Figure 5. Boundary sensitivity analysis.
   <img src="figures/Boundary/convection_alm_boundary_sensitivity_overlay.png" width="400" alt="Convection ALM Overlay">
   <img src="figures/Boundary/convection_lbfgs_boundary_sensitivity_overlay.png" width="400" alt="Convection L-BFGS Overlay">
 </p>
-<p align="center"><strong>(a) Convection + ALM &emsp;&emsp;&emsp; (b) Convection + L-BFGS</strong></p>
+<p align="center"><strong>(a) Convection, ALM &emsp;&emsp;&emsp; (b) Convection, L-BFGS</strong></p>
 
 <p align="center">
   <img src="figures/Boundary/convection_nncg_boundary_sensitivity_overlay.png" width="400" alt="Convection NNCG Overlay">
   <img src="figures/Boundary/ropinn_boundary_sensitivity_overlay.png" width="400" alt="RoPINN Overlay">
 </p>
-<p align="center"><strong>(c) Convection + NNCG &emsp;&emsp;&emsp; (d) RoPINN</strong></p>
+<p align="center"><strong>(c) Convection, NNCG &emsp;&emsp;&emsp; (d) Convection, RoPINN</strong></p>
 
 <p align="center">
   <img src="figures/Boundary/reaction_lbfgs_boundary_sensitivity_overlay.png" width="400" alt="Reaction L-BFGS Overlay">
   <img src="figures/Boundary/wave_lbfgs_boundary_sensitivity_overlay.png" width="400" alt="Wave L-BFGS Overlay">
 </p>
-<p align="center"><strong>(e) Reaction + L-BFGS &emsp;&emsp;&emsp; (f) Wave + L-BFGS</strong></p>
+<p align="center"><strong>(e) Reaction, L-BFGS &emsp;&emsp;&emsp; (f) Wave, L-BFGS</strong></p>
 
 <p align="center">
   <img src="figures/Boundary/AD_FNO_boundary_sensitivity_overlay.png" width="400" alt="AD FNO Overlay">
   <img src="figures/Boundary/poisson_fno_boundary_sensitivity_overlay.png" width="400" alt="Poisson FNO Overlay">
 </p>
-<p align="center"><strong>(g) AD-FNO &emsp;&emsp;&emsp; (h) Poisson-FNO</strong></p>
+<p align="center"><strong>(g) Advection-Diffusion, FNO &emsp;&emsp;&emsp; (h) Poisson, FNO</strong></p>
 
 ---
 
@@ -80,7 +80,7 @@ Figure 6. Training loss and test error on convection system with resampling coll
 
 ## Reviewer sQNm (Q2)
 
-Figure 7. Comparison of Adam, RoPINN, NNCG, and SOAP on the Convection system.
+Figure 7. Comparison of Adam, RoPINN, NNCG, and SOAP on convection system. The training loss and test errors in the figures are defined as the differences between the results of the two optimizers. 
 
 <p align="center">
   <img src="figures/adam_soap_training_loss.png" width="300" alt="Adam - SOAP Training Loss">
@@ -104,7 +104,7 @@ Figure 7. Comparison of Adam, RoPINN, NNCG, and SOAP on the Convection system.
 
 ## Reviewer sQNm (Q3)
 
-Figure 8. Comparison of SOAP, NNCG, and RoPINN on the Convection system.
+Figure 8. Comparison of SOAP, NNCG, and RoPINN on convection system. The training loss and test errors in the figures are defined as the differences between the results of the two optimizers.
 
 <p align="center">
   <img src="figures/Archive/convection_soap_minus_nncg_training_loss.png" width="300" alt="SOAP - NNCG Training Loss">
