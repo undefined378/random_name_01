@@ -4,7 +4,7 @@
 
 Figure 1. Training loss and test error for Physics-informed NeuralODE with Adam, RoPINN, and NNCG optimizers.
 
-<table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse;">
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin: 0 auto;">
   <tr>
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="figures/pi_nerualode_train_loss_heatmap.png" width="300" alt="Adam Training Loss">
@@ -64,7 +64,7 @@ Figure 2. Training loss and test error for PINO with ALM, RoPINN, and Curriculum
 
 Figure 3. Boundary sensitivity analysis.
 
-<table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse;">
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin: 0 auto;">
   <tr>
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="figures/Boundary/convection_alm_boundary_sensitivity_overlay.png" width="400" alt="Convection ALM Overlay">
@@ -129,7 +129,7 @@ Figure 4. Training loss and test error on convection system with resampling coll
 
 Figure 5. Comparison of Adam, RoPINN, and SOAP on the Convection system with a large network (width: 256,  depth: 4). Figures (a) and (b) show the differences in training loss and test error between the Adam and SOAP optimizers.
 
-<table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse;">
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin: 0 auto;">
   <tr>
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="figures/adam_soap_training_loss.png" width="300" alt="Adam vs SOAP Training Loss">
@@ -162,7 +162,7 @@ Figure 5. Comparison of Adam, RoPINN, and SOAP on the Convection system with a l
 
 Figure 6. Comparison of SOAP, NNCG, and RoPINN on the Convection system.
 
-<table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse;">
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin: 0 auto;">
   <tr>
     <td align="center" style="padding: 10px; border: 0px;">
       <img src="figures/convection_sources_soap_nncg_ropinn_training_loss.png" width="400" alt="SOAP NNCG RoPINN Training Loss">
