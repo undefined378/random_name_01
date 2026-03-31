@@ -1,0 +1,1 @@
+![Figure 1](./figures/convection_sources_soap_nncg_ropinn_test_error.png)
