@@ -56,7 +56,7 @@ Figure 1. Training loss and test error for Physics-informed NeuralODE with Adam,
 
 Figure 2. Training loss and test error for PINO with ALM, RoPINN, and Curriculum Learning (CL).
 
-<img src="figures/pino_optim.png" width="700" alt="PINO">
+<p align="center"><img src="figures/pino_optim.png" width="700" alt="PINO"></p>
 
 ---
 
@@ -121,7 +121,7 @@ Figure 3. Boundary sensitivity analysis.
 
 Figure 4. Training loss and test error on convection system with resampling collocation points.
 
-<img src="figures/resample.png" width="600" alt="Collocation Resampling">
+<p align="center"><img src="figures/resample.png" width="600" alt="Collocation Resampling"></p>
 
 ---
 
