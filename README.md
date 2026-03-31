@@ -36,9 +36,13 @@ Figure 3. Seed sensitivity of RoPINN over 3 seeds (std).
 
 <p align="center"><img src="figures/convection_seed_sensitivity_ropinn_std_pair.png" width="600" alt="Seed Sensitivity RoPINN"></p>
 
+Figure 4. Failure rate of NNCG on reaction over 3 seeds.
+
+<p align="center"><img src="figures/reaction_nncg_failure_rate_compressed.png" width="600" alt="Failure Rate NNCG Reaction"></p>
+
 ---
 
-Figure 4. Boundary sensitivity analysis.
+Figure 5. Boundary sensitivity analysis.
 
 <p align="center">
   <img src="figures/Boundary/convection_alm_boundary_sensitivity_overlay.png" width="400" alt="Convection ALM Overlay">
@@ -68,7 +72,7 @@ Figure 4. Boundary sensitivity analysis.
 
 ## Reviewer sQNm (Q1)
 
-Figure 5. Training loss and test error on convection system with resampling collocation points.
+Figure 6. Training loss and test error on convection system with resampling collocation points.
 
 <p align="center"><img src="figures/resample.png" width="600" alt="Collocation Resampling"></p>
 
@@ -76,7 +80,7 @@ Figure 5. Training loss and test error on convection system with resampling coll
 
 ## Reviewer sQNm (Q2)
 
-Figure 6. Comparison of Adam, RoPINN, and SOAP on the Convection system with a large network (width: 256, depth: 4). Figures (a) and (b) show the differences in training loss and test error between the Adam and SOAP optimizers.
+Figure 7. Comparison of Adam, RoPINN, and SOAP on the Convection system with a large network (width: 256, depth: 4). Figures (a) and (b) show the differences in training loss and test error between the Adam and SOAP optimizers.
 
 <p align="center">
   <img src="figures/adam_soap_training_loss.png" width="300" alt="Adam vs SOAP Training Loss">
@@ -94,7 +98,7 @@ Figure 6. Comparison of Adam, RoPINN, and SOAP on the Convection system with a l
 
 ## Reviewer sQNm (Q3)
 
-Figure 7. Comparison of SOAP, NNCG, and RoPINN on the Convection system.
+Figure 8. Comparison of SOAP, NNCG, and RoPINN on the Convection system.
 
 <p align="center">
   <img src="figures/convection_sources_soap_nncg_ropinn_training_loss.png" width="400" alt="SOAP NNCG RoPINN Training Loss">
