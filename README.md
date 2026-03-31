@@ -5,28 +5,22 @@
 Figure 1. Training loss and test error for Physics-informed NeuralODE with Adam, RoPINN, and NNCG optimizers.
 
 <p align="center">
-  <img src="figures/pi_nerualode_train_loss_heatmap.png" width="300" alt="Adam Training Loss">
-  <img src="figures/pi_nerualode_test_error_heatmap.png" width="300" alt="Adam Test Error">
+  <img src="figures/adam_train_loss.png" width="300" alt="Adam Training Loss">
+  <img src="figures/adam_test_error.png" width="300" alt="Adam Test Error">
 </p>
-<p align="center"><strong>(a) PI-NeuralODE with Adam</strong></p>
+<p align="center"><strong>(a) NeuralODE with Adam</strong></p>
 
 <p align="center">
-  <img src="figures/RoPINN-NeuralODE_train_loss_heatmap.png" width="300" alt="RoPINN Training Loss">
-  <img src="figures/RoPINN-NeuralODE_test_error_heatmap.png" width="300" alt="RoPINN Test Error">
+  <img src="figures/ropinn_neuralode_train_loss.png" width="300" alt="RoPINN Training Loss">
+  <img src="figures/ropinn_neuralode_test_error.png" width="300" alt="RoPINN Test Error">
 </p>
-<p align="center"><strong>(b) PI-NeuralODE with RoPINN</strong></p>
+<p align="center"><strong>(b) NeuralODE with RoPINN</strong></p>
 
 <p align="center">
-  <img src="figures/NNCG_NeuralODE_train_loss_heatmap.png" width="300" alt="NNCG Training Loss">
-  <img src="figures/NNCG_NeuralODE_test_error_heatmap.png" width="300" alt="NNCG Test Error">
+  <img src="figures/nncg_neuralode_train_loss.png" width="300" alt="NNCG Training Loss">
+  <img src="figures/nncg_neuralode_test_error.png" width="300" alt="NNCG Test Error">
 </p>
-<p align="center"><strong>(c) PI-NeuralODE with NNCG</strong></p>
-
-<p align="center">
-  <img src="figures/adam_train_loss.png" width="300" alt="Adam Training Loss NeuralODE">
-  <img src="figures/adam_test_error.png" width="300" alt="Adam Test Error NeuralODE">
-</p>
-<p align="center"><strong>(d) NeuralODE with Adam</strong></p>
+<p align="center"><strong>(c) NeuralODE with NNCG</strong></p>
 
 ---
 
