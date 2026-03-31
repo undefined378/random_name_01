@@ -80,19 +80,25 @@ Figure 6. Training loss and test error on convection system with resampling coll
 
 ## Reviewer sQNm (Q2)
 
-Figure 7. Comparison of Adam, RoPINN, and SOAP on the Convection system with a large network (width: 256, depth: 4). Figures (a) and (b) show the differences in training loss and test error between the Adam and SOAP optimizers.
+Figure 7. Comparison of Adam, RoPINN, NNCG, and SOAP on the Convection system.
 
 <p align="center">
-  <img src="figures/adam_soap_training_loss.png" width="300" alt="Adam vs SOAP Training Loss">
-  <img src="figures/adam_soap_test_error.png" width="300" alt="Adam vs SOAP Test Error">
+  <img src="figures/adam_soap_training_loss.png" width="300" alt="Adam - SOAP Training Loss">
+  <img src="figures/adam_soap_test_error.png" width="300" alt="Adam - SOAP Test Error">
 </p>
 <p align="center"><strong>(a) Training Loss (Adam - SOAP) &emsp;&emsp;&emsp; (b) Test Error (Adam - SOAP)</strong></p>
 
 <p align="center">
-  <img src="figures/convection_sources_adam_ropinn_training_loss.png" width="300" alt="Adam + RoPINN Training Loss">
-  <img src="figures/convection_sources_adam_ropinn_test_error.png" width="300" alt="Adam + RoPINN Test Error">
+  <img src="figures/Archive/convection_adam_minus_nncg_training_loss.png" width="300" alt="Adam - NNCG Training Loss">
+  <img src="figures/Archive/convection_adam_minus_nncg_test_error.png" width="300" alt="Adam - NNCG Test Error">
 </p>
-<p align="center"><strong>(c) Training Loss (Adam - RoPINN) &emsp;&emsp;&emsp; (d) Test Error (Adam - RoPINN)</strong></p>
+<p align="center"><strong>(c) Training Loss (Adam - NNCG) &emsp;&emsp;&emsp; (d) Test Error (Adam - NNCG)</strong></p>
+
+<p align="center">
+  <img src="figures/Archive/convection_adam_minus_ropinn_training_loss.png" width="300" alt="Adam - RoPINN Training Loss">
+  <img src="figures/Archive/convection_adam_minus_ropinn_test_error.png" width="300" alt="Adam - RoPINN Test Error">
+</p>
+<p align="center"><strong>(e) Training Loss (Adam - RoPINN) &emsp;&emsp;&emsp; (f) Test Error (Adam - RoPINN)</strong></p>
 
 ---
 
@@ -101,9 +107,15 @@ Figure 7. Comparison of Adam, RoPINN, and SOAP on the Convection system with a l
 Figure 8. Comparison of SOAP, NNCG, and RoPINN on the Convection system.
 
 <p align="center">
-  <img src="figures/convection_sources_soap_nncg_ropinn_training_loss.png" width="400" alt="SOAP NNCG RoPINN Training Loss">
-  <img src="figures/convection_sources_soap_nncg_ropinn_test_error.png" width="400" alt="SOAP NNCG RoPINN Test Error">
+  <img src="figures/Archive/convection_soap_minus_nncg_training_loss.png" width="300" alt="SOAP - NNCG Training Loss">
+  <img src="figures/Archive/convection_soap_minus_nncg_test_error.png" width="300" alt="SOAP - NNCG Test Error">
 </p>
-<p align="center"><strong>(a) Training Loss &emsp;&emsp;&emsp; (b) Test Error</strong></p>
+<p align="center"><strong>(a) Training Loss (SOAP - NNCG) &emsp;&emsp;&emsp; (b) Test Error (SOAP - NNCG)</strong></p>
+
+<p align="center">
+  <img src="figures/Archive/convection_soap_minus_ropinn_training_loss.png" width="300" alt="SOAP - RoPINN Training Loss">
+  <img src="figures/Archive/convection_soap_minus_ropinn_test_error.png" width="300" alt="SOAP - RoPINN Test Error">
+</p>
+<p align="center"><strong>(c) Training Loss (SOAP - RoPINN) &emsp;&emsp;&emsp; (d) Test Error (SOAP - RoPINN)</strong></p>
 
 </div>
