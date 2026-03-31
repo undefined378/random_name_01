@@ -1,8 +1,8 @@
 <div align="center">
 
-## Reviewer 9qHM — W2 / Q1
+## Reviewer 9qHM (W2 / Q1) 
 
-Figure 1. Physics-Informed NeuralODE, RoPINN, and NNCG in NeuralODE. Hyperparameter-sweep heatmaps of training loss (left) and test error (right) for PI-NeuralODE, RoPINN, and NNCG on a NeuralODE benchmark, showing how the regime structure shifts across optimizer variants.
+Figure 1. Training loss and test error heatmaps for Physics-Informed NeuralODE, RoPINN, and NNCG on NeuralODE.
 
 <table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse;">
   <tr>
@@ -45,15 +45,15 @@ Figure 1. Physics-Informed NeuralODE, RoPINN, and NNCG in NeuralODE. Hyperparame
 
 ---
 
-Figure 2. ALM, RoPINN, and Curriculum Learning in PINO. Regime-distribution results for ALM, RoPINN, and curriculum learning on a PINO / FNO benchmark, demonstrating regime-specific optimizer effectiveness beyond the PINN setting.
+Figure 2. Training loss and test error heatmaps for ALM, RoPINN, and Curriculum Learning on PINO.
 
 <img src="./figures/pino_optim.png" width="700" alt="PINO">
 
 ---
 
-## Reviewer 9qHM — Q3 / Reviewer oZBm
+## Reviewer 9qHM （Q3） / Reviewer kKd9（Q1）
 
-Figure 3. Regime Boundary Sensitivity — Overlay Plots. Regime boundary contours overlaid at multiple threshold values on the same hyperparameter-sweep heatmap, showing that the well-trained / underfitting / overfitting boundaries remain stable across eight PINN and FNO settings.
+Figure 3. Regime boundary contours overlaid at multiple threshold values on the same training loss and test error phase plot on PINN and FNO.
 
 <table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse;">
   <tr>
@@ -108,17 +108,17 @@ Figure 3. Regime Boundary Sensitivity — Overlay Plots. Regime boundary contour
 
 ---
 
-## Reviewer sQNm — Q1
+## Reviewer sQNm （Q1）
 
-Figure 4. Collocation Resampling in PINNs. Training loss and test error under collocation resampling (new points drawn each iteration), corresponding to the infinite-collocation limit, showing how resampling affects regime structure and optimizer conclusions.
+Figure 4. Training loss and test error change with iteration under resampling at each iteration.
 
 <img src="./figures/resample.png" width="600" alt="Collocation Resampling">
 
 ---
 
-## Reviewer sQNm — Q2
+## Reviewer sQNm （Q2）
 
-Figure 5. Adam and Adam + RoPINN Results on Convection Benchmarks. Panels (a)–(b): head-to-head comparison of Adam and SOAP on a PINN benchmark. Panels (c)–(d): Adam combined with RoPINN on the convection equation with varying source terms.
+Figure 5. Comparison of Adam, RoPINN, and SOAP on the Convection system.
 
 <table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse;">
   <tr>
@@ -149,9 +149,9 @@ Figure 5. Adam and Adam + RoPINN Results on Convection Benchmarks. Panels (a)–
 
 ---
 
-## Reviewer sQNm — Q3
+## Reviewer sQNm （Q3）
 
-Figure 6. SOAP, NNCG, and RoPINN Results on Convection Benchmarks. Hyperparameter-sweep heatmaps comparing SOAP, NNCG, and RoPINN on the convection equation with varying source terms, situating SOAP as a quasi-second-order method alongside other curvature-aware optimizers.
+Figure 6. Comparison of SOAP, NNCG, and RoPINN on the Convection system.
 
 <table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse;">
   <tr>
