@@ -57,7 +57,7 @@
 
 *Regime-distribution results for three optimization strategies applied to a Physics-Informed Neural Operator (PINO / FNO) benchmark. ALM enforces physics constraints via an augmented Lagrangian penalty; RoPINN reweights PDE residual terms; curriculum learning gradually increases PDE complexity during training. The panel shows how each strategy shifts the proportion of runs falling into each regime, demonstrating regime-specific optimizer effectiveness on an FNO model — extending the optimizer-regime analysis beyond the PINN setting.*
 
-<img src="./figures/pino.png" width="350" alt="PINO">
+<img src="./figures/pino_optim.png" width="700" alt="PINO">
 
 ---
 
